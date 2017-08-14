@@ -1,0 +1,28 @@
+{
+  "name": "stockmarket",
+  "version": "1.0.0",
+  "description": "Fullstack app for FCC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davemflick/stockmarket.git"
+  },
+  "author": "David Flick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davemflick/stockmarket/issues"
+  },
+  "homepage": "https://github.com/davemflick/stockmarket#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.7",
+    "pug": "^2.0.0-rc.3"
+  }
+}
